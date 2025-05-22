@@ -1,0 +1,44 @@
+Basic Math and Logic Problems:
+
+1. Fibonacci Sequence
+2. Factorial (Iterative and Recursive)
+3. Check Prime Number
+4. Generate Prime Numbers in a Range
+5. GCD and LCM (Greatest Common Divisor / Least Common Multiple)
+6. Palindrome Number
+7. Armstrong Number
+8. Perfect Number
+9. Check Even or Odd
+10. Sum of Digits of a Number
+11. Reverse a Number
+12. Swapping Two Numbers (with/without temp variable)
+
+String-Related Basics:
+
+1. Check Palindrome String
+2. Count Vowels and Consonants
+3. Reverse a String (manual method)
+4. Convert Lowercase to Uppercase (without using .toUpperCase())
+5. Check if Two Strings are Anagrams
+6. Find Frequency of Characters
+7. Remove Duplicates from a String
+8. Count Words in a Sentence
+
+Pattern Printing (classic in interviews):
+
+1. Right-Angled Triangle
+2. Inverted Triangle
+3. Pyramid
+4. Number Patterns (e.g., 1 22 333...)
+5. Pascal’s Triangle
+
+Miscellaneous Logical Problems:
+
+1. Leap Year Checker
+2. Check if a Number is Power of Two
+3. Convert Decimal to Binary (and vice versa)
+4. Find the Sum of N Natural Numbers
+5. Simple Calculator (with switch-case)
+6. Check if a Number is a Strong Number
+7. Count Number of Digits
+8. Binary Search (non-recursive version) – optional, very basic algorithm
