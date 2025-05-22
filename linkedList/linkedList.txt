@@ -1,0 +1,49 @@
+
+📌 Why Use a Linked List?  
+📎 What Makes It Different from a Python List?
+
+🔹 1. Memory Allocation
+
+- Python Lists (arrays) use contiguous memory, which can cause performance issues when resized.
+- Linked Lists use non-contiguous memory, allocating one node at a time—more flexible for dynamic memory.
+
+🔹 2. Insertion & Deletion
+
+| Operation                 | Python List | Linked List |
+|--------------------------|-------------|-------------|
+| Insert/Delete at start   | ❌ O(n)      | ✅ O(1)      |
+| Insert/Delete in middle  | ❌ O(n)      | ✅ O(1)*     |
+| Insert/Delete at end     | ✅ O(1)**    | ⚠️ O(n)      |
+
+*If you already have a pointer/reference to the node  
+**Only if append() is used with no need to resize  
+
+- Lists must shift elements during insertion/deletion.  
+- Linked Lists avoid this, especially useful in queues/stacks.
+
+🔹 3. Access Speed
+
+| Feature       | Python List | Linked List |
+|--------------|-------------|-------------|
+| Random Access| ✅ O(1)      | ❌ O(n)      |
+| Sequential   | ✅ O(n)      | ✅ O(n)      |
+
+- Lists provide instant access with indexing.
+- Linked lists require traversal from the head.
+
+🔹 4. Use Cases
+
+Use a Linked List when:
+- You don’t know the number of elements in advance.
+- You need frequent insertions/deletions at the beginning or middle.
+- You are building:
+  - Queues
+  - Stacks
+  - Hashmaps with chaining
+  - Graphs
+
+🔹 5. Drawbacks of Linked Lists
+
+- More memory per item (data + pointer).
+- Slower access — no direct indexing.
+- Not cache-friendly (scattered memory).
