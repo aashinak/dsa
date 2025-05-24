@@ -18,7 +18,9 @@ class Stack:
     def push(self, val):
         self.container.append(val)
     def pop(self):
-        return self.container.pop()
+        if not self.is_empty():
+            return self.container.pop()
+        return "Stack empty"
     def peek(self):
         return self.container[-1]
     def is_empty(self):
